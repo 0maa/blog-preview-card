@@ -20,7 +20,9 @@
 body{
     background-color: hsl(47, 88%, 63%);
     font-family: 'Times New Roman', Times, serif;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -29,16 +31,9 @@ body{
     background-color: white;
     font-family: 'BoldItalic';
     font-size: larger;
-
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
 }
 
-#don{
-    font-family: 'FigtreeItalic';
-    font-weight: bolder;
-    font-size: xx-large;
-}
-
-#up{
-    font-family: 'Variable';
-    color: chartreuse;
 }
