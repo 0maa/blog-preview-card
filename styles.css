@@ -20,7 +20,7 @@
 
 body{
     background-color: hsl(47, 88%, 63%);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,15 +31,15 @@ body{
 
 .container{
     background-color: white;
-    font-family: 'BoldItalic';
+    /* font-family: 'BoldItalic'; */
     font-size: larger;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 50px;
-    height: 60%;
-    width: 30%;
+    height: auto;
+    width: auto;
     border-radius: 15px;
 }
 
@@ -51,4 +51,14 @@ body{
 
 .text{
     margin:15px;
+}
+
+#img{
+    border-radius: 10px;
+    width: 95%;
+
+}
+
+.icon{
+    
 }
