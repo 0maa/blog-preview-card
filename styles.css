@@ -32,21 +32,24 @@ body{
 .container{
     background-color: white;
     /* font-family: 'BoldItalic'; */
-    font-size: larger;
+    /* font-size: larger; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px;
-    height: auto;
-    width: auto;
+    margin: 30px;
+    height: 470px;
+    width: 350px;
+    max-width: 100%;
     border-radius: 15px;
+    padding: 0px;
 }
 
 
 .image{
-    margin: 15px;
+    margin: 20px;
     border-radius: 20px;
+    padding: 20
 }
 
 .text{
@@ -61,4 +64,8 @@ body{
 
 .icon{
     
+}
+
+.name-tag{
+    display: inline-block;
 }
