@@ -17,7 +17,9 @@
     src: url('font\Figtree\Figtree-VariableFont_wght.ttf')
     format('truetype');
 /* } */
-
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: hsl(47, 88%, 63%);
     font-family: 'Montserrat', serif;
@@ -27,6 +29,7 @@ body{
     /* flex-direction: column; */
     margin: 0;
     /* width: 50%; */
+    height: 100vh;
 }
 
 .container{
@@ -35,12 +38,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 100px;
-    height: 450px;
+    margin: 20px;
+    height: auto;
     width: 340px;
     max-width: 100%;
     border-radius: 15px;
     padding: px;
+    box-shadow: 6px 7px;
 }
 
 
@@ -48,33 +52,38 @@ body{
     margin:25px;
 }
 
-#img{
-    border-radius: 10px;
+.image img{
+    border-radius: 20px;
     /* width: 80%; */
     width: 250px;
     height: 200px;
-    margin-top: 45px;
-    padding: 10px
+    margin-top: px;
+    /* padding: 10px */
     
 }
 
 .icon{
-    width: 35%;
-    height: 40%;
-    position: relative;
-    right: 95px;
+    width: 40px;
+    height: 40px;
+    /* position: relative;
+    right: 70px; */
+    border-radius: 50%;
+    
     /* display: flex;
     justify-content: center;
     al */
 }
 
 .name-tag{
-    /* display: inline-block; */
-
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
 }
 
 .text{
     text-align: left;
+    margin: 15px 20px
 }
 
 .dp{
