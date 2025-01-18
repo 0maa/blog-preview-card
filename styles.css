@@ -63,8 +63,8 @@ body{
 .name-tag{
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-left: 10px;
+    /* gap: 5px; */
+    margin-left:0 10px;
 }
 
 .text{
@@ -113,4 +113,31 @@ body{
     font-size: 16px;
     color: hsl(0, 0%, 42%);
     font-weight: 500;
+}
+
+@media (max-width: 480px) { /* For small screens */
+    .container {
+        width: 90%; /* Use a percentage for better adaptability */
+        padding: 10px;
+    }
+    .image {
+        padding: 5px;
+    }
+    .text {
+        margin: 5px 10px; /* Smaller margins */
+    }
+    .name-tag {
+        gap: 5px; /* Closer icon and name */
+        margin: 0 10px;
+    }
+    .box {
+        width: 60px; /* Shrink box */
+        height: 20px;
+    }
+    .foundations {
+        font-size: 14px; /* Adjust font size */
+    }
+    .description {
+        font-size: 14px;
+    }
 }
