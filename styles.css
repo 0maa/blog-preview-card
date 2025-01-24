@@ -119,27 +119,28 @@ body{
     font-weight: 500;
 }
 
-@media (max-width: 480px) { /* For small screens */
-    .container {
-        width: 90%; /* Use a percentage for better adaptability */
+@media (max-width: 480px) 
+{.container {
+        width: 90%; 
         padding: 10px;
     }
     .image {
         padding: 5px;
     }
     .text {
-        margin: 5px 10px; /* Smaller margins */
+        margin: 5px 10px;
     }
     .name-tag {
-        gap: 5px; /* Closer icon and name */
+        gap: 5px;
         margin: 0 10px;
     }
     .box {
-        width: 60px; /* Shrink box */
+        width: 60px; 
         height: 20px;
     }
     .foundations {
-        font-size: 14px; /* Adjust font size */
+        font-size: 14px; 
+
     }
     .description {
         font-size: 14px;
